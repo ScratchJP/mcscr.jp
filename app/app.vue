@@ -92,7 +92,11 @@ const items = ref<NavigationMenuItem[]>([
     <UFooter>
       <template #left>
         <p class="text-sm text-muted">
-          © {{ new Date().getFullYear() }} ScratchJP
+          © {{ new Date().getFullYear() }} <NuxtLink
+            to="https://scratchjp.org"
+            class="text-info hover:underline"
+            target="_blank"
+          >Scratch JP</NuxtLink>
         </p>
       </template>
       
