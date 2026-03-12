@@ -1,0 +1,6 @@
+@import "tailwindcss";
+@import "@nuxt/ui";
+
+@theme static {
+  --font-sans: 'Titillium Web', 'LINE Seed JP', sans-serif;
+}
