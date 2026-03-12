@@ -11,8 +11,8 @@
     "typecheck": "nuxt typecheck"
   },
   "dependencies": {
-    "@iconify-json/lucide": "^1.2.96",
-    "@iconify-json/simple-icons": "^1.2.72",
+    "@iconify-json/lucide": "^1.2.97",
+    "@iconify-json/simple-icons": "^1.2.73",
     "@nuxt/content": "3.12.0",
     "@nuxt/fonts": "0.14.0",
     "@nuxt/image": "2.0.0",
@@ -25,6 +25,7 @@
   },
   "devDependencies": {
     "@nuxt/eslint": "^1.15.2",
+    "@stylistic/eslint-plugin": "^5.10.0",
     "eslint": "^10.0.3",
     "typescript": "^5.9.3",
     "vue-tsc": "^3.2.5"
