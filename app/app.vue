@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import type { NavigationMenuItem, FooterColumn } from '@nuxt/ui'
+import type { NavigationMenuItem } from '@nuxt/ui'
 
 const route = useRoute();
 
