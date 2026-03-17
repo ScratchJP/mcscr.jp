@@ -27,7 +27,7 @@ definePageMeta({
             label="ホワイトリスト申請する"
             to="https://discord.gg/EAKthfnZBu"
             target="_blank"
-            trailingIcon="i-tabler-checkup-list"
+            trailing-icon="i-tabler-checkup-list"
             size="xl"
             class="rounded-full px-4"
           />

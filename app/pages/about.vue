@@ -8,12 +8,13 @@ const { data: rules } = await useAsyncData(() => queryCollection('content').path
 
 <template>
   <div>
-    <UPageSection title="サーバールール" :ui="{
+    <UPageSection
+title="サーバールール" :ui="{
       container: 'text-black dark:text-white lg:pt-24'
     }">
       <template #description>
         <UContainer class="text-sm sm:text-base">
-          <ContentRenderer :value="rules" v-if="rules" />
+          <ContentRenderer v-if="rules" :value="rules" />
           <p v-else>サーバールールの読み込みに失敗しました；；</p>
         </UContainer>
       </template>
