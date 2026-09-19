@@ -2,6 +2,9 @@
 definePageMeta({
   title: 'サーバー情報',
 })
+defineRouteRules({
+  prerender: true,
+})
 
 const { data: rules } = await useAsyncData(() => queryCollection('content').path('/about/rules').first())
 </script>
