@@ -26,5 +26,11 @@ export default defineNuxtConfig({
     config: {
       stylistic: false
     }
-  }
+  },
+
+  nitro: {
+    prerender: {
+      routes: ['/about']
+    }
+  },
 })
