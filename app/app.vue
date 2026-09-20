@@ -20,11 +20,11 @@ const description = 'ScJPマイクラ鯖は、設備やルールなどが充実�
 const repositoryUrl: string = "https://github.com/ScratchJP/mcscr.jp";
 
 useSeoMeta({
-  title,
+  title: () => route.meta.title as string || title,
   titleTemplate: "%s ┃ ScJPMCマイクラ鯖",
-  description,
-  ogTitle: title,
-  ogDescription: description,
+  description: () => route.meta.description as string || description,
+  ogTitle: () => route.meta.title as string || title,
+  ogDescription: () => route.meta.description as string || description,
   // ogImage: 'https://ui.nuxt.com/assets/templates/nuxt/starter-light.png',
   // twitterImage: 'https://ui.nuxt.com/assets/templates/nuxt/starter-light.png',
   // twitterCard: 'summary_large_image'
