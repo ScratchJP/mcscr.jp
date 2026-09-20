@@ -1,6 +1,7 @@
 <script setup lang="ts">
 definePageMeta({
   title: 'SCJP Minecraftサーバー利用規約',
+  description: '',
 })
 
 const { data: page } = await useAsyncData(() => queryCollection('content').path('/terms').first())
