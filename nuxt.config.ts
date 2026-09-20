@@ -33,4 +33,10 @@ export default defineNuxtConfig({
       routes: ['/about']
     }
   },
+
+  content: {
+    renderer: {
+      anchorLinks: false,
+    },
+  },
 })

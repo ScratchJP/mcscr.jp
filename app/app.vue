@@ -37,8 +37,7 @@ const items = ref<NavigationMenuItem[]>([
   },
   {
     label: '利用規約',
-    to: 'https://scratchjp.notion.site/SCJPMinecraft-ce6cd3035a044758939b94355058ee77',
-    target: "_blank",
+    to: '/terms',
   },
   {
     label: 'ホワイトリスト申請',
